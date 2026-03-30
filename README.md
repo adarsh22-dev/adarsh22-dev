@@ -3,11 +3,9 @@
   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0A66C2,100:1a1a2e&height=200&section=header&text=Adarsh%20Singh&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=Frontend%20Engineer%20%7C%20React.js%20%7C%20Shopify%20Plus%20%7C%20TypeScript&descSize=16&descAlignY=58&descColor=a0b4c8&animation=fadeIn" />
 </p>
 
-<!-- Typing Animation -->
+<!-- Typing Animation — width increased to avoid cutoff -->
 <p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=0A66C2&center=true&vCenter=true&random=false&width=600&lines=6%2B+Years+of+Frontend+Engineering;React+%7C+TypeScript+%7C+Shopify+Plus;Building+High-Performance+eCommerce;Core+Web+Vitals+%26+CRO+Specialist;API+Automation+%E2%86%92+70%25+Workload+Reduction" alt="Typing SVG" />
-  </a>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&pause=1000&color=4A9FD4&center=true&vCenter=true&random=false&width=700&lines=Frontend+Engineer+with+6%2B+Years+of+Experience;React+%7C+TypeScript+%7C+Shopify+Plus+Developer;Building+High-Performance+eCommerce+Platforms;Core+Web+Vitals+%26+Conversion+Optimization;API+Automation+%E2%80%94+70%25+Workload+Reduction" alt="Typing SVG" />
 </p>
 
 <!-- Social Badges -->
@@ -67,16 +65,16 @@ Software Engineer with **6+ years** of experience delivering high-performance en
 
 ### Tech Stack
 
-<!-- Capsule Render Skill Banners -->
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,tailwind,redux,html,css&theme=dark&perline=8" /><br/>
-  <img src="https://skillicons.dev/icons?i=shopify,wordpress,nodejs,express,graphql,mongodb,mysql,firebase&theme=dark&perline=8" /><br/>
+  <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,tailwind,redux,html,css&theme=dark&perline=8" /><br/><br/>
+  <img src="https://skillicons.dev/icons?i=shopify,wordpress,nodejs,express,graphql,mongodb,mysql,firebase&theme=dark&perline=8" /><br/><br/>
   <img src="https://skillicons.dev/icons?i=aws,vercel,docker,git,figma,jest,postman,github&theme=dark&perline=8" />
 </p>
 
-<!-- Animated Capsule Render Tech Bars -->
+<br/>
+
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:0A66C2,100:1a1a2e&height=40&section=header&text=Frontend%20%7C%20eCommerce%20%7C%20Backend%20%7C%20Cloud%20%7C%20Testing&fontSize=13&fontColor=ffffff&animation=blinking" />
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:0d1117,100:0A66C2&height=38&text=Frontend%20%7C%20eCommerce%20%7C%20Backend%20%7C%20Cloud%20%7C%20Testing&fontSize=13&fontColor=ffffff&animation=blinking" />
 </p>
 
 ---
@@ -84,16 +82,15 @@ Software Engineer with **6+ years** of experience delivering high-performance en
 ### GitHub Stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=adarsh22-dev&theme=github_dark&hide_border=true&include_all_commits=false&count_private=false" />
-  &nbsp;
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=adarsh22-dev&theme=github_dark&hide_border=true&layout=compact" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=adarsh22-dev&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true" />
+  &nbsp;&nbsp;
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=adarsh22-dev&theme=github_dark&hide_border=true&layout=compact&langs_count=8" />
 </p>
 
 <p align="center">
-  <img src="https://nirzak-streak-stats.vercel.app/?user=adarsh22-dev&theme=github_dark&hide_border=true" />
+  <img src="https://streak-stats.demolab.com?user=adarsh22-dev&theme=github-dark&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" />
 </p>
 
-<!-- GitHub Trophies -->
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=adarsh22-dev&theme=onestar&no-frame=true&no-bg=true&margin-w=6&column=6" />
 </p>
@@ -110,31 +107,38 @@ Software Engineer with **6+ years** of experience delivering high-performance en
   </picture>
 </p>
 
-> To enable the snake animation, add this GitHub Action to your profile repo at `.github/workflows/snake.yml`:
->
-> ```yaml
-> name: Generate Snake
-> on:
->   schedule:
->     - cron: "0 0 * * *"
->   workflow_dispatch:
-> jobs:
->   generate:
->     runs-on: ubuntu-latest
->     steps:
->       - uses: Platane/snk@v3
->         with:
->           github_user_name: adarsh22-dev
->           outputs: |
->             dist/github-snake.svg
->             dist/github-snake-dark.svg?palette=github-dark
->       - uses: crazy-max/ghaction-github-pages@v3
->         with:
->           target_branch: output
->           build_dir: dist
->         env:
->           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-> ```
+<details>
+<summary>Setup snake animation (click to expand)</summary>
+
+Create `.github/workflows/snake.yml` in your profile repo with:
+
+```yaml
+name: Generate Snake
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Platane/snk@v3
+        with:
+          github_user_name: adarsh22-dev
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+      - uses: crazy-max/ghaction-github-pages@v3
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+```
+
+Then go to **Actions** tab and run it manually once to generate the SVG.
+
+</details>
 
 ---
 
@@ -155,7 +159,7 @@ Software Engineer with **6+ years** of experience delivering high-performance en
 
 <!-- Footer Wave -->
 <p align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,100:0A66C2&height=120&section=footer&fontSize=14&fontColor=a0b4c8&animation=fadeIn" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,100:0A66C2&height=120&section=footer&animation=fadeIn" />
 </p>
 
 <p align="center">
